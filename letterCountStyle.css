@@ -61,6 +61,7 @@ form {
 }
 
 #search {
+    text-align: center;
     background: transparent;
     border: 0px;
     border-radius: 0;
@@ -81,6 +82,28 @@ form {
     outline: 0px;
 }
 
+#caseSensitive {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.box {
+    margin: 5px;
+    font-size: 2em;
+    display: inline-block;
+    color: #fff;
+}
+
+.mainInput {
+    text-align: center;
+}
+
+#output {
+    text-align: center;
+    color: #fff;
+}
+
 
 /* Supporting */
 
@@ -90,30 +113,6 @@ form {
 .feature {
     text-align: center;
     color: #fff;
-}
-
-.supporting {
-    padding-bottom: 80px;
-}
-
-.supporting h2,
-.feature h1 {
-    color: #0393ff;
-    margin-top: 60px;
-    margin-bottom: 10px;
-    font-size: 32px;
-    font-weight: 300;
-}
-
-.supporting p {
-    margin-bottom: 45px;
-    font-size: 16px;
-}
-
-.supporting .thumbnail {
-    background: transparent;
-    border: none;
-    padding: 0;
 }
 
 @media (max-width: 770px) {
