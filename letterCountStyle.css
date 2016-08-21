@@ -88,6 +88,10 @@ form {
     height: 1.5em;
 }
 
+.title {
+    text-align: center;
+}
+
 .box {
     margin: 5px;
     font-size: 2em;
