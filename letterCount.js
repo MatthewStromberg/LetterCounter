@@ -11,7 +11,7 @@ var myFunc = function () {
     keys = Object.keys(dictionary).sort();
     for (var x in keys) {
         var key = keys[x];
-        outStr += "<div class='myDiv'><span class='test' id = '" + key + "'>" + key + " --> " + dictionary[key] + "</span></div>";
+        outStr += "<div class='myDiv'><span class='test' id = '" + key + "'>" + key + " →" + dictionary[key] + "</span></div>";
         console.log("Key is : " + key);
     }
     $("#output").html(outStr);
